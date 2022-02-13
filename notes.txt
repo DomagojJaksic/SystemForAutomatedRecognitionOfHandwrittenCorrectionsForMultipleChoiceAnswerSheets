@@ -1,0 +1,45 @@
+Poglavlja
+1. Uvod
+2. Pregled podrucja
+3. Dataset
+4. Normalizacija pozicije ispita
+5. Detekcija tablice
+6. Ekstrakcija polja iz tablice
+7. Raspoznavanje ispravaka
+ 7.1. SVM
+ 7.2. Random forest
+ 7.3. Custom CNN
+ 7.4. ResNet
+ 7.5. DenseNet?
+8. Zakljucak
+
+ResNet
+valid acc: Total accuracy: 0.9999 (21073 / 21075)
+           Letter accuracy: 0.9773 (86 / 88)
+test acc: Total accuracy: 0.9999 (180306 / 180329)
+          Letter accuracy: 0.9707 (696 / 717)
+
+Custom CNN
+valid acc:  Total accuracy: 0.9999 (21072 / 21075)
+            Letter accuracy: 0.9659 (85 / 88)
+test acc: Total accuracy: 0.9998 (180298 / 180329)
+          Letter accuracy: 0.9623 (690 / 717)
+
+DenseNet
+valid acc:  Total accuracy: 0.9999 (21072 / 21075)
+            Letter accuracy: 0.9659 (85 / 88)
+test acc: Total accuracy: 0.9998 (180285 / 180329)
+          Letter accuracy: 0.94 (674 / 717)
+
+SVM
+valid acc: Total accuracy: 0.9996 (21067 / 21075)
+           Letter accuracy: 0.9091 (80 / 88)
+test acc: Total accuracy: 0.9996 (180248 / 180329)
+          Letter accuracy: 0.8912 (639 / 717)
+
+Random forest
+valid acc: Total accuracy: 0.9997 (21069 / 21075)
+           Letter accuracy: 0.9318 (82 / 88)
+test acc: Total accuracy: 0.9996 (180264 / 180329)
+          Letter accuracy: 0.9163 (657 / 717)
+
